@@ -1,0 +1,5 @@
+{
+    "prettier.mode": "Auto",
+    "prettier.applicableFilesGlob": "{**/*,*}.{js,ts,jsx,tsx,svelte}",
+    "editor.formatOnSave": true
+}
