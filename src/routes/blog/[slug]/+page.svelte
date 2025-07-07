@@ -13,7 +13,7 @@
 <article class="prose">
 	<h1 class="text-3xl font-bold">{data.metadata.title}</h1>
 	<p class="mb-6 text-sm text-gray-500">
-		{new Date(data.metadata.date).toLocaleDateString(undefined, {
+		{new Date(data.metadata.date).toLocaleDateString('de-DE', {
 			year: 'numeric',
 			month: 'long',
 			day: 'numeric'
