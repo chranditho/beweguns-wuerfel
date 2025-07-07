@@ -6,7 +6,6 @@
 	import IconMusic from '@lucide/svelte/icons/music';
 	import IconVideo from '@lucide/svelte/icons/video';
 
-	let value = $state('files');
 </script>
 
 <Navigation.Bar>
