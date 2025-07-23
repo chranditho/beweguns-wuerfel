@@ -1,8 +1,8 @@
 ---
-title: "Hello World"
-date: "2025-06-01"
+title: "Erster Post"
+date: "2025-07-01"
 ---
 
-# Hello World
+## Welcome to our first post!
 
 This is my first post!

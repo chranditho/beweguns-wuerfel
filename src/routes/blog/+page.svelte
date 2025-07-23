@@ -19,7 +19,7 @@
 				{post.title}
 			</a>
 			<div class="text-sm text-gray-500">
-				{new Date(post.date).toLocaleDateString(undefined, {
+				{new Date(post.date).toLocaleDateString('de-DE', {
 					year: 'numeric',
 					month: 'long',
 					day: 'numeric'
