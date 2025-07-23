@@ -33,3 +33,28 @@
 		</div>
 	</div>
 </div>
+
+<div class="space-y-8">
+	<h2 class="h2 text-center">Wir lösen drei Hauptprobleme:</h2>
+	<div class="flex flex-wrap gap-4">
+		<div class="card w-full max-w-md preset-filled-surface-100-900 p-4 text-center space-y-2">
+			<h3 class="h3">🎯 Hohe Zugangshürden zu inklusivem Sport</h3>
+			<p>Mobilität (immer irgendwo hinfahren zu müssen) und starre Strukturen schrecken viele ab. Unser spielerischer
+				Ansatz macht Bewegung zugänglich.</p>
+		</div>
+
+		<div class="card w-full max-w-md preset-filled-surface-100-900 p-4 text-center space-y-2">
+			<h3 class="h3">💡 Mangel an spielerischer Bewegung</h3>
+			<p>Bewegung soll Spaß machen! Unser Würfel macht Bewegung zum Spiel und fördert so die Motivation.</p>
+		</div>
+
+		<div class="card w-full max-w-md preset-filled-surface-100-900 p-4 text-center space-y-2">
+			<h3 class="h3">🌱 Fehlende Nachhaltigkeit</h3>
+			<p>Viele Bewegungsangebote sind einmalig. Wir bilden Bewegungsbeauftragte aus, die die Idee weitergeben. Mit dem
+				Würfel hat man auch eine Erinnerung an die Bewegung.</p>
+		</div>
+	</div>
+</div>
+
+<h2>Unser nächster Workshop</h2>
+<p>Lerne den Bewegungswürfel kennen und werde Teil unserer inklusiven Bewegung.</p>
