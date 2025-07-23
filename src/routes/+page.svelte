@@ -16,7 +16,7 @@
 
 <div class="space-y-8">
 	<h2 class="h2 text-center">Was uns ausmacht</h2>
-	<div class="flex gap-4">
+	<div class="flex flex-wrap gap-4">
 		<div class="card w-full max-w-md preset-filled-surface-100-900 p-4 text-center space-y-2">
 			<h3 class="h3">🎲 Spielerisch bewegen</h3>
 			<p>Der Bewegungswürfel macht Bewegung zum Spiel. Einfach würfeln und loslegen - so einfach kann Bewegung sein!</p>
