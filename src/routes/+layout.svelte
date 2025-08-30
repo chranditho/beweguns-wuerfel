@@ -1,19 +1,19 @@
 <script lang="ts">
 	import '../app.css';
-	import NavDesktop from '$lib/NavDesktop.svelte';
-	import NavMobile from '$lib/NavMobile.svelte';
+	import header from '$lib/assets/header.png';
+
+	import Nav from '$lib/Nav.svelte';
 
 	let { children } = $props();
 </script>
 
-<div class="card grid min-h-screen w-full grid-rows-[1fr_auto] lg:grid-cols-[auto_1fr]">
-	<div class="hidden lg:block h-screen sticky top-0">
-		<NavDesktop />
-	</div>
-	<div class="p-4">
+<div class="flex flex-col min-h-screen">
+	<header class="px-4 py-2 flex flex-col justify-center items-center gap-2">
+		<img src="{header}" height="300" width="400" alt="Beweg uns Würfel Logo">
+		<Nav />
+	</header>
+	<main class="p-4 flex-grow">
 		{@render children()}
-	</div>
-	<div class="lg:hidden sticky bottom-0">
-		<NavMobile />
-	</div>
+	</main>
+	<footer class="bg-gray-900 text-white p-4">footer</footer>
 </div>
