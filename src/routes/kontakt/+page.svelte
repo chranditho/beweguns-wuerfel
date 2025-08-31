@@ -88,7 +88,7 @@
 							<p class="text-gray-600">Österreich</p>
 						</div>
 					</div>
-					
+
 					<div class="flex items-start space-x-3">
 						<div class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-1">
 							<svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -100,7 +100,7 @@
 							<p class="text-gray-600">[Telefonnummer]</p>
 						</div>
 					</div>
-					
+
 					<div class="flex items-start space-x-3">
 						<div class="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
 							<svg class="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -122,7 +122,7 @@
 				<h2 class="text-2xl font-semibold mb-4">Nachricht senden</h2>
 				<form on:submit|preventDefault={handleSubmit} class="space-y-4">
 					<div>
-						<label for="name" class="block text-sm font-medium text-gray-700 mb-1">
+						<label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
 							Name *
 						</label>
 						<input
@@ -136,7 +136,7 @@
 					</div>
 
 					<div>
-						<label for="email" class="block text-sm font-medium text-gray-700 mb-1">
+						<label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
 							E-Mail-Adresse *
 						</label>
 						<input
@@ -150,7 +150,7 @@
 					</div>
 
 					<div>
-						<label for="subject" class="block text-sm font-medium text-gray-700 mb-1">
+						<label for="subject" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
 							Betreff *
 						</label>
 						<input
@@ -164,7 +164,7 @@
 					</div>
 
 					<div>
-						<label for="message" class="block text-sm font-medium text-gray-700 mb-1">
+						<label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
 							Nachricht *
 						</label>
 						<textarea
