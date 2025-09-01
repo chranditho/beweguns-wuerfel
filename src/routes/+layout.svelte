@@ -2,7 +2,7 @@
 	import '../app.css';
 	import header from '$lib/assets/header.png';
 
-	import Nav from '$lib/Nav.svelte';
+	import Nav from '$lib/components/Nav.svelte';
 
 	let { children } = $props();
 </script>
