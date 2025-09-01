@@ -18,7 +18,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 		if (!emailRegex.test(email)) {
 			return json(
-				{ success: false, error: 'Bitte geben Sie eine gültige E-Mail-Adresse ein.' },
+				{ success: false, error: 'Bitte gib eine gültige E-Mail-Adresse ein.' },
 				{ status: 400 }
 			);
 		}
@@ -72,7 +72,7 @@ export const POST: RequestHandler = async ({ request }) => {
 
 		return json({
 			success: true,
-			message: 'Ihre Nachricht wurde erfolgreich gesendet. Wir werden uns bald bei Ihnen melden.'
+			message: 'Deine Nachricht wurde erfolgreich gesendet. Wir werden uns bald bei dir melden.'
 		});
 
 	} catch (error) {
