@@ -88,7 +88,7 @@
 			<div class="bg-gray-50 dark:bg-gray-600 p-4 rounded-lg">
 				<p>Gemäß Art. 14 Abs. 1 ODR-VO weisen wir auf die Online-Streitbeilegungsplattform der Europäischen Kommission hin:</p>
 				<p class="mt-2"><a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">https://ec.europa.eu/consumers/odr/</a></p>
-				<p class="mt-2">Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
+				<p class="mt-2">Unsere E-Mail-Adresse findest du oben im Impressum.</p>
 			</div>
 		</section>
 

@@ -12,7 +12,7 @@
 
 		// Basic form validation
 		if (!name.trim() || !email.trim() || !subject.trim() || !message.trim()) {
-			submitMessage = 'Bitte füllen Sie alle Felder aus.';
+			submitMessage = 'Bitte fülle alle Felder aus.';
 			isSubmitting = false;
 			return;
 		}
@@ -20,7 +20,7 @@
 		// Email validation
 		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 		if (!emailRegex.test(email)) {
-			submitMessage = 'Bitte geben Sie eine gültige E-Mail-Adresse ein.';
+			submitMessage = 'Bitte gib eine gültige E-Mail-Adresse ein.';
 			isSubmitting = false;
 			return;
 		}
@@ -50,11 +50,11 @@
 				message = '';
 				submitMessage = result.message;
 			} else {
-				submitMessage = result.error || 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.';
+				submitMessage = result.error || 'Ein Fehler ist aufgetreten. Bitte versuche es später erneut.';
 			}
 		} catch (error) {
 			console.error('Form submission error:', error);
-			submitMessage = 'Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.';
+			submitMessage = 'Ein Fehler ist aufgetreten. Bitte versuche es später erneut.';
 		} finally {
 			isSubmitting = false;
 		}
