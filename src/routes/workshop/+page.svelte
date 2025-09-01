@@ -74,16 +74,16 @@
 	</section>
 
 	<!-- Hero Greeting Section -->
-	<section class="text-center py-8 bg-gray-50 dark:bg-gray-800 rounded-lg">
-		<div class="max-w-xl mx-auto px-4">
-			<h2 class="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-4">
+	<section class="text-center py-16 bg-gray-50 dark:bg-gray-800 rounded-lg mt-16 mb-16">
+		<div class="max-w-2xl mx-auto px-8">
+			<h2 class="text-3xl font-bold text-gray-800 dark:text-gray-200 mb-6">
 				Willkommen bei BewegUNS Würfel!
 			</h2>
-			<p class="text-gray-600 dark:text-gray-300 mb-6">
+			<p class="text-lg text-gray-600 dark:text-gray-300 mb-8">
 				Entdecke die Freude an der Bewegung mit unserem interaktiven Würfel.
 			</p>
 			<a href="/kontakt"
-				 class="inline-block bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded transition-colors">
+				 class="inline-block bg-blue-600 hover:bg-blue-700 text-white py-3 px-8 rounded-lg transition-colors font-medium">
 				Jetzt anmelden
 			</a>
 		</div>
