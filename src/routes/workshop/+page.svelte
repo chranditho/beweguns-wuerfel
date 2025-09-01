@@ -13,15 +13,15 @@
 				<div class="space-y-4">
 					<div class="flex items-start gap-2">
 						<span class="text-lg">🏃‍♂️</span>
-						<p class="text-gray-700 dark:text-gray-300">Bewegung für Kinder - Spielerisch fit werden</p>
+						<p class="text-gray-700 dark:text-gray-300">[Workshop-Titel 1 - z.B. Bewegung für Kinder]</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📅</span>
-						<p class="text-gray-700 dark:text-gray-300">Samstag, 15. September 2025<br>10:00 - 12:00 Uhr</p>
+						<p class="text-gray-700 dark:text-gray-300">[Datum und Uhrzeit - z.B. Samstag, 15. September 2025<br>10:00 - 12:00 Uhr]</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📍</span>
-						<p class="text-gray-700 dark:text-gray-300">Turnsaal der Volksschule<br>Hauptstraße 23, 1010 Wien</p>
+						<p class="text-gray-700 dark:text-gray-300">[Veranstaltungsort - z.B. Turnsaal der Volksschule<br>Hauptstraße 23, 1010 Wien]</p>
 					</div>
 				</div>
 			</div>
@@ -31,15 +31,15 @@
 				<div class="space-y-4">
 					<div class="flex items-start gap-2">
 						<span class="text-lg">🏃‍♂️</span>
-						<p class="text-gray-700 dark:text-gray-300">Rückenfit - Gesunde Haltung im Büro</p>
+						<p class="text-gray-700 dark:text-gray-300">[Workshop-Titel 2 - z.B. Rückenfit - Gesunde Haltung im Büro]</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📅</span>
-						<p class="text-gray-700 dark:text-gray-300">Mittwoch, 25. September 2025<br>18:30 - 20:00 Uhr</p>
+						<p class="text-gray-700 dark:text-gray-300">[Datum und Uhrzeit - z.B. Mittwoch, 25. September 2025<br>18:30 - 20:00 Uhr]</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📍</span>
-						<p class="text-gray-700 dark:text-gray-300">Gemeindezentrum Graz<br>Parkstraße 45, 8010 Graz</p>
+						<p class="text-gray-700 dark:text-gray-300">[Veranstaltungsort - z.B. Gemeindezentrum Graz<br>Parkstraße 45, 8010 Graz]</p>
 					</div>
 				</div>
 			</div>
@@ -49,15 +49,15 @@
 				<div class="space-y-4">
 					<div class="flex items-start gap-2">
 						<span class="text-lg">🏃‍♂️</span>
-						<p class="text-gray-700 dark:text-gray-300">Seniorensport - Aktiv im Alter</p>
+						<p class="text-gray-700 dark:text-gray-300">[Workshop-Titel 3 - z.B. Seniorensport - Aktiv im Alter]</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📅</span>
-						<p class="text-gray-700 dark:text-gray-300">Donnerstag, 3. Oktober 2025<br>14:00 - 15:30 Uhr</p>
+						<p class="text-gray-700 dark:text-gray-300">[Datum und Uhrzeit - z.B. Donnerstag, 3. Oktober 2025<br>14:00 - 15:30 Uhr]</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📍</span>
-						<p class="text-gray-700 dark:text-gray-300">Kulturhaus Innsbruck<br>Museumstraße 12, 6020 Innsbruck</p>
+						<p class="text-gray-700 dark:text-gray-300">[Veranstaltungsort - z.B. Kulturhaus Innsbruck<br>Museumstraße 12, 6020 Innsbruck]</p>
 					</div>
 				</div>
 			</div>
@@ -68,7 +68,7 @@
 				<strong>Anmeldung:</strong> Für alle Workshops ist eine Voranmeldung erforderlich.
 				Kontaktiere uns über unsere <a href="/kontakt"
 																			 class="text-primary-500 hover:opacity-80 underline">Kontaktseite</a>
-				oder ruf uns direkt an.
+				oder ruf uns direkt an unter [Telefonnummer - z.B. +43 1 234 5678].
 			</p>
 		</div>
 	</section>
