@@ -15,5 +15,5 @@
 	<main class="p-4 flex-grow">
 		{@render children()}
 	</main>
-	<footer class="bg-gray-900 text-white p-4">todo: footer</footer>
+	<footer class="bg-gray-900 text-white p-4">done: footer</footer>
 </div>
