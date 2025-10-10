@@ -131,7 +131,7 @@
 				</div>
 				<form on:submit|preventDefault={handleSubmit} class="space-y-4">
 					<div>
-						<label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
+						<label for="name" class="block font-medium text-gray-700 dark:text-gray-100 mb-1">
 							Name *
 						</label>
 						<input
@@ -145,7 +145,7 @@
 					</div>
 
 					<div>
-						<label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
+						<label for="email" class="block font-medium text-gray-700 dark:text-gray-100 mb-1">
 							E-Mail-Adresse *
 						</label>
 						<input
@@ -159,7 +159,7 @@
 					</div>
 
 					<div>
-						<label for="subject" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
+						<label for="subject" class="block font-medium text-gray-700 dark:text-gray-100 mb-1">
 							Betreff *
 						</label>
 						<input
@@ -173,7 +173,7 @@
 					</div>
 
 					<div>
-						<label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
+						<label for="message" class="block font-medium text-gray-700 dark:text-gray-100 mb-1">
 							Nachricht *
 						</label>
 						<textarea
@@ -207,7 +207,7 @@
 		</div>
 	</div>
 
-	<div class="mt-8 text-sm text-gray-600">
+	<div class="mt-8 text-gray-600">
 		<p><strong>Hinweis:</strong> Die in eckigen Klammern stehenden Platzhalter sind durch die entsprechenden aktuellen
 			Kontaktdaten zu ersetzen.</p>
 	</div>

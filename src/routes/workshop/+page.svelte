@@ -64,7 +64,7 @@
 		</div>
 
 		<div class="mt-6 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
-			<p class="text-sm text-gray-600 dark:text-gray-400">
+			<p class="text-gray-600 dark:text-gray-400">
 				<strong>Anmeldung:</strong> Für alle Workshops ist eine Voranmeldung erforderlich.
 				Kontaktiere uns über unsere <a href="/kontakt"
 																			 class="text-primary-500 hover:opacity-80 underline">Kontaktseite</a>
