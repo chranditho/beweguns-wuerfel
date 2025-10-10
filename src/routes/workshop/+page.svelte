@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <svelte:head>
 	<title>Workshop - BewegUNS Würfel</title>
 </svelte:head>
@@ -9,7 +12,7 @@
 
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
 			<!-- Workshop Event 1 -->
-			<div class="bg-primary-50 border-t-4 border-primary-500 dark:bg-blue-900/20 p-6 rounded-lg">
+			<div class="border-3 border-black p-6 rounded-lg dark:bg-gray-900 dark:border-gray-300">
 				<div class="space-y-4">
 					<div class="flex items-start gap-2">
 						<span class="text-lg">🏃‍♂️</span>
@@ -17,35 +20,40 @@
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📅</span>
-						<p class="text-gray-700 dark:text-gray-300">[Datum und Uhrzeit - z.B. Samstag, 15. September 2025<br>10:00 - 12:00 Uhr]</p>
+						<p class="text-gray-700 dark:text-gray-300">[Datum und Uhrzeit - z.B. Samstag, 15. September 2025<br>10:00 -
+							12:00 Uhr]</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📍</span>
-						<p class="text-gray-700 dark:text-gray-300">[Veranstaltungsort - z.B. Turnsaal der Volksschule<br>Hauptstraße 23, 1010 Wien]</p>
+						<p class="text-gray-700 dark:text-gray-300">[Veranstaltungsort - z.B. Turnsaal der Volksschule<br>Hauptstraße
+							23, 1010 Wien]</p>
 					</div>
 				</div>
 			</div>
 
 			<!-- Workshop Event 2 -->
-			<div class="bg-secondary-50 border-t-4 border-secondary-500 dark:bg-green-900/20 p-6 rounded-lg">
+			<div class="border-3 border-black p-6 rounded-lg dark:bg-gray-900 dark:border-gray-300">
 				<div class="space-y-4">
 					<div class="flex items-start gap-2">
 						<span class="text-lg">🏃‍♂️</span>
-						<p class="text-gray-700 dark:text-gray-300">[Workshop-Titel 2 - z.B. Rückenfit - Gesunde Haltung im Büro]</p>
+						<p class="text-gray-700 dark:text-gray-300">[Workshop-Titel 2 - z.B. Rückenfit - Gesunde Haltung im
+							Büro]</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📅</span>
-						<p class="text-gray-700 dark:text-gray-300">[Datum und Uhrzeit - z.B. Mittwoch, 25. September 2025<br>18:30 - 20:00 Uhr]</p>
+						<p class="text-gray-700 dark:text-gray-300">[Datum und Uhrzeit - z.B. Mittwoch, 25. September 2025<br>18:30
+							- 20:00 Uhr]</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📍</span>
-						<p class="text-gray-700 dark:text-gray-300">[Veranstaltungsort - z.B. Gemeindezentrum Graz<br>Parkstraße 45, 8010 Graz]</p>
+						<p class="text-gray-700 dark:text-gray-300">[Veranstaltungsort - z.B. Gemeindezentrum Graz<br>Parkstraße 45,
+							8010 Graz]</p>
 					</div>
 				</div>
 			</div>
 
 			<!-- Workshop Event 3 -->
-			<div class="bg-accent-50 border-t-4 border-accent-500 dark:bg-pink-900/20 p-6 rounded-lg">
+			<div class="border-3 border-black p-6 rounded-lg dark:bg-gray-900 dark:border-gray-300">
 				<div class="space-y-4">
 					<div class="flex items-start gap-2">
 						<span class="text-lg">🏃‍♂️</span>
@@ -53,18 +61,20 @@
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📅</span>
-						<p class="text-gray-700 dark:text-gray-300">[Datum und Uhrzeit - z.B. Donnerstag, 3. Oktober 2025<br>14:00 - 15:30 Uhr]</p>
+						<p class="text-gray-700 dark:text-gray-300">[Datum und Uhrzeit - z.B. Donnerstag, 3. Oktober 2025<br>14:00 -
+							15:30 Uhr]</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📍</span>
-						<p class="text-gray-700 dark:text-gray-300">[Veranstaltungsort - z.B. Kulturhaus Innsbruck<br>Museumstraße 12, 6020 Innsbruck]</p>
+						<p class="text-gray-700 dark:text-gray-300">[Veranstaltungsort - z.B. Kulturhaus Innsbruck<br>Museumstraße
+							12, 6020 Innsbruck]</p>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="mt-6 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
-			<p class="text-sm text-gray-600 dark:text-gray-400">
+			<p class="text-gray-600 dark:text-gray-400">
 				<strong>Anmeldung:</strong> Für alle Workshops ist eine Voranmeldung erforderlich.
 				Kontaktiere uns über unsere <a href="/kontakt"
 																			 class="text-primary-500 hover:opacity-80 underline">Kontaktseite</a>
