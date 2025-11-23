@@ -15,5 +15,10 @@
 	<main class="p-4 flex-grow">
 		{@render children()}
 	</main>
-	<footer class="bg-gray-900 text-white p-4">todo: footer</footer>
+	<footer class="bg-gray-900 text-white p-4">
+		<div>
+			<h4 class="font-bold">Links</h4>
+			<a href="https://www.instagram.com/bewegunswuerfel/?igsh=d2k5eTBzbDh5Zjg%3D&utm_source=qr">Instagram</a>
+		</div>
+	</footer>
 </div>
