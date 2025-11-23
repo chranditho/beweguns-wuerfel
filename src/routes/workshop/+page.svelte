@@ -13,51 +13,15 @@
 				<div class="space-y-4">
 					<div class="flex items-start gap-2">
 						<span class="text-lg">🏃‍♂️</span>
-						<p class="text-gray-700 dark:text-gray-300">[Workshop-Titel 1 - z.B. Bewegung für Kinder]</p>
+						<p class="text-gray-700 dark:text-gray-300">Release-Party & Workshop</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📅</span>
-						<p class="text-gray-700 dark:text-gray-300">[Datum und Uhrzeit - z.B. Samstag, 15. September 2025<br>10:00 - 12:00 Uhr]</p>
+						<p class="text-gray-700 dark:text-gray-300">Feber 2026</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📍</span>
-						<p class="text-gray-700 dark:text-gray-300">[Veranstaltungsort - z.B. Turnsaal der Volksschule<br>Hauptstraße 23, 1010 Wien]</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- Workshop Event 2 -->
-			<div class="bg-secondary-50 border-t-4 border-secondary-500 dark:bg-green-900/20 p-6 rounded-lg">
-				<div class="space-y-4">
-					<div class="flex items-start gap-2">
-						<span class="text-lg">🏃‍♂️</span>
-						<p class="text-gray-700 dark:text-gray-300">[Workshop-Titel 2 - z.B. Rückenfit - Gesunde Haltung im Büro]</p>
-					</div>
-					<div class="flex items-start gap-2">
-						<span class="text-lg">📅</span>
-						<p class="text-gray-700 dark:text-gray-300">[Datum und Uhrzeit - z.B. Mittwoch, 25. September 2025<br>18:30 - 20:00 Uhr]</p>
-					</div>
-					<div class="flex items-start gap-2">
-						<span class="text-lg">📍</span>
-						<p class="text-gray-700 dark:text-gray-300">[Veranstaltungsort - z.B. Gemeindezentrum Graz<br>Parkstraße 45, 8010 Graz]</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- Workshop Event 3 -->
-			<div class="bg-accent-50 border-t-4 border-accent-500 dark:bg-pink-900/20 p-6 rounded-lg">
-				<div class="space-y-4">
-					<div class="flex items-start gap-2">
-						<span class="text-lg">🏃‍♂️</span>
-						<p class="text-gray-700 dark:text-gray-300">[Workshop-Titel 3 - z.B. Seniorensport - Aktiv im Alter]</p>
-					</div>
-					<div class="flex items-start gap-2">
-						<span class="text-lg">📅</span>
-						<p class="text-gray-700 dark:text-gray-300">[Datum und Uhrzeit - z.B. Donnerstag, 3. Oktober 2025<br>14:00 - 15:30 Uhr]</p>
-					</div>
-					<div class="flex items-start gap-2">
-						<span class="text-lg">📍</span>
-						<p class="text-gray-700 dark:text-gray-300">[Veranstaltungsort - z.B. Kulturhaus Innsbruck<br>Museumstraße 12, 6020 Innsbruck]</p>
+						<p class="text-gray-700 dark:text-gray-300">(genaue Infos folgen noch)</p>
 					</div>
 				</div>
 			</div>
@@ -80,10 +44,14 @@
 				Willkommen bei BewegUNS Würfel!
 			</h2>
 			<p class="text-lg text-gray-600 dark:text-gray-300 mb-8">
-				Entdecke die Freude an der Bewegung mit unserem interaktiven Würfel.
+				Wir sind der Meinung, dass jeder Mensch Spaß an Bewegung haben kann!
+				Der BewegUNS-Würfel ist ein inklusives Würfelspiel für alle. Er wurde partizipativ entwickelt, also von Menschen
+				mit und ohne Behinderungen gemeinsam. So vielfältig wie wir Menschen sind, haben auch die kleinen Spielwürfel
+				keine Grenzen. Entdecke verschiedene Spielformen für alt und jung, egal ob unterwegs mit Freunden oder allein
+				zuhause - wir bringen Bewegung in deinen Alltag!
 			</p>
 			<a href="/kontakt"
-				 class="inline-block bg-blue-600 hover:bg-blue-700 text-white py-3 px-8 rounded-lg transition-colors font-medium">
+				 class="inline-block bg-primary-500 hover:bg-primary-700 text-white py-3 px-8 rounded-lg transition-colors font-medium">
 				Jetzt anmelden
 			</a>
 		</div>
