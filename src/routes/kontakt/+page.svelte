@@ -100,7 +100,7 @@
 						</div>
 						<div>
 							<h3 class="font-semibold text-gray-900">E-Mail</h3>
-							<p class="text-gray-600">bewegungswuerfel@gmail.com</p>
+							<p class="text-gray-600"><a href="mailto:bewegungswuerfel@gmail.com">bewegungswuerfel@gmail.com</a></p>
 						</div>
 					</div>
 				</div>

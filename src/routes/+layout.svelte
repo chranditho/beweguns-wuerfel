@@ -7,9 +7,9 @@
 	let { children } = $props();
 </script>
 
-<div class="flex flex-col min-h-screen">
+<div class="flex flex-col min-h-screen ">
 	<header class="px-4 py-2 flex flex-col justify-center items-center gap-2">
-		<img src="{header}" height="300" width="400" alt="Beweg uns Würfel Logo">
+		<img src="{header}" height="450" width="600" alt="Beweg uns Würfel Logo">
 		<Nav />
 	</header>
 	<main class="p-4 flex-grow">

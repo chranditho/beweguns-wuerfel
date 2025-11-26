@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <svelte:head>
 	<title>Workshop - BewegUNS Würfel</title>
 </svelte:head>
@@ -9,26 +12,26 @@
 
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
 			<!-- Workshop Event 1 -->
-			<div class="bg-primary-50 border-t-4 border-primary-500 dark:bg-blue-900/20 p-6 rounded-lg">
+			<div class="bg-primary-50 border-t-4 border-primary-500  p-6 rounded-lg col-span-3">
 				<div class="space-y-4">
 					<div class="flex items-start gap-2">
 						<span class="text-lg">🏃‍♂️</span>
-						<p class="text-gray-700 dark:text-gray-300">Release-Party & Workshop</p>
+						<p class="text-gray-700 ">Release-Party & Workshop</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📅</span>
-						<p class="text-gray-700 dark:text-gray-300">Feber 2026</p>
+						<p class="text-gray-700 ">Feber 2026</p>
 					</div>
 					<div class="flex items-start gap-2">
 						<span class="text-lg">📍</span>
-						<p class="text-gray-700 dark:text-gray-300">(genaue Infos folgen noch)</p>
+						<p class="text-gray-700 ">(genaue Infos folgen noch)</p>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="mt-6 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
-			<p class="text-sm text-gray-600 dark:text-gray-400">
+		<div class="mt-6 p-4 bg-gray-50 ">
+			<p class="text-sm text-gray-600 ">
 				<strong>Anmeldung:</strong> Für alle Workshops ist eine Voranmeldung erforderlich.
 				Kontaktiere uns über unsere <a href="/kontakt"
 																			 class="text-primary-500 hover:opacity-80 underline">Kontaktseite</a>
@@ -38,12 +41,12 @@
 	</section>
 
 	<!-- Hero Greeting Section -->
-	<section class="text-center py-16 bg-gray-50 dark:bg-gray-800 rounded-lg mt-16 mb-16">
+	<section class="text-center py-16 bg-gray-50  rounded-lg mt-16 mb-16">
 		<div class="max-w-2xl mx-auto px-8">
-			<h2 class="text-3xl font-bold text-gray-800 dark:text-gray-200 mb-6">
+			<h2 class="text-3xl font-bold text-gray-800  mb-6">
 				Willkommen bei BewegUNS Würfel!
 			</h2>
-			<p class="text-lg text-gray-600 dark:text-gray-300 mb-8">
+			<p class="text-lg text-gray-600  mb-8">
 				Wir sind der Meinung, dass jeder Mensch Spaß an Bewegung haben kann!
 				Der BewegUNS-Würfel ist ein inklusives Würfelspiel für alle. Er wurde partizipativ entwickelt, also von Menschen
 				mit und ohne Behinderungen gemeinsam. So vielfältig wie wir Menschen sind, haben auch die kleinen Spielwürfel
