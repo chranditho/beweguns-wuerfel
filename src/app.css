@@ -6,17 +6,22 @@
 @theme {
     --font-atkinson: "Atkinson Hyperlegible", sans-serif;
     --color-primary-50: #e6f3ff;
-    --color-primary-500: #4a90e2;
+    --color-primary-500: #007BBC;
     --color-primary-600: #357abd;
     --color-primary-700: #2a5f94;
 
     --color-secondary-50: #f0fff0;
-    --color-secondary-500: #7ed321;
+    --color-secondary-500: #59D403;
     --color-secondary-600: #65a91a;
     --color-secondary-700: #4d7f13;
 
+    --color-tertiary-50: #fdfdd4;
+    --color-tertiary-500: #EBEB5A;
+    --color-tertiary-600: #b3b344;
+    --color-tertiary-700: #878732;
+
     --color-accent-50: #ffeef8;
-    --color-accent-500: #e91e63;
+    --color-accent-500: #FF26FB;
     --color-accent-600: #c2185b;
     --color-accent-700: #9c1447;
 }
