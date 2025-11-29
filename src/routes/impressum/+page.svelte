@@ -10,7 +10,6 @@
 			<p><strong>Verantwortlich für den Inhalt:</strong></p>
 			<p>Samuel Grausgruber</p>
 			<p>Rittergasse 2, 8010 Graz</p>
-			<p>8010 Graz</p>
 			<p>Österreich</p>
 			<p>E-Mail: samuelgrausgruber@gmail.com</p>
 		</div>
