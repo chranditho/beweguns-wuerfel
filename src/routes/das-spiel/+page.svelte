@@ -1,6 +1,3 @@
-<script>
-</script>
-<div class="items-center max-w-screen-lg mx-auto space-y-10">
 	<article>
 		<h1 class="text-3xl font-bold mb-6">Das Spiel</h1>
 		<div class="space-y-6">
@@ -84,4 +81,3 @@
 			</article>
 		</div>
 	</article>
-</div>

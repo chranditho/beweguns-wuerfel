@@ -10,18 +10,18 @@
 	let valli = {
 		imageSrc: valliImgSrc,
 		altText: 'Auf den Foto sieht man Valerie Seebacher aka Vali, zuständig für Design und Struktur. Sie ist der kreative Kopf des Teams.',
-		description: "Valerie Seebacher, auch Valli genannt, ist Lehrerin und Lehramtsstudentin für Sport, Inklusive Pädagogik und Deutsch. Zu ihren Erfahrungen zählen außerdem jahrelange Trainer- und Vorstandstätigkeiten sowie ihre Selbstständigkeit im Designbereich. Im Team ist Valli für die kreativen Aufgaben wie das Corporate Design (Logo, Instagram, Website) und den Strukturaufbau zuständig.",
-		inclusionDefinition: "Inklusion bedeutet für Valli… Vielfalt anzuerkennen, Solidarität zu zeigen, Chancengerechtigkeit zu fordern und an das Gute in jedem Menschen zu glauben.",
-		favoriteSports: "Tanzen, Akrobatik",
-		favoriteGames: "Puzzle, Gemeinschaftsspiele und Real Life Games"
+		description: 'Valerie Seebacher, auch Valli genannt, ist Lehrerin und Lehramtsstudentin für Sport, Inklusive Pädagogik und Deutsch. Zu ihren Erfahrungen zählen außerdem jahrelange Trainer- und Vorstandstätigkeiten sowie ihre Selbstständigkeit im Designbereich. Im Team ist Valli für die kreativen Aufgaben wie das Corporate Design (Logo, Instagram, Website) und den Strukturaufbau zuständig.',
+		inclusionDefinition: 'Inklusion bedeutet für Valli… Vielfalt anzuerkennen, Solidarität zu zeigen, Chancengerechtigkeit zu fordern und an das Gute in jedem Menschen zu glauben.',
+		favoriteSports: 'Tanzen, Akrobatik',
+		favoriteGames: 'Puzzle, Gemeinschaftsspiele und Real Life Games'
 	};
 	let fabi = {
 		imageSrc: fabiImgSrc,
 		altText: 'Auf den Foto sieht man Fabian Veider aka Fabi aka Beanie, der kreativen Kopf des Teams. Er ist der kreative Hauptanteil des Teams.',
-		description: "Fabian Veider aka. Fabi oder Beanie bringt mit seiner Vielseitigkeit die unterschiedlichsten Blickwinkel in unser Projekt ein. Neben seinem Job als Doktorant der Systemwissenschaften und Mathecoach beim FAB Graz ist er stark in der Musik-Szene vernetzt und auch aktivistisch für die Themen Klimawandel und LGBTQ+ unterwegs. Dieses Netzwerk und seine Organisationserfahrung bringt Fabi auch bei unserem EU-Projekt ein.",
-		inclusionDefinition: "Inklusion bedeutet für Fabi… individuell und als Gemeinschaft jede Person, unabhängig von Einschränkungen, zu akzeptieren und so gut wie möglich am gesellschaftlichen Leben teilhaben zu lassen.",
-		favoriteSports: "Taekwondo",
-		favoriteGames: "ichu, Sushi Go!, Planet B"
+		description: 'Fabian Veider aka. Fabi oder Beanie bringt mit seiner Vielseitigkeit die unterschiedlichsten Blickwinkel in unser Projekt ein. Neben seinem Job als Doktorant der Systemwissenschaften und Mathecoach beim FAB Graz ist er stark in der Musik-Szene vernetzt und auch aktivistisch für die Themen Klimawandel und LGBTQ+ unterwegs. Dieses Netzwerk und seine Organisationserfahrung bringt Fabi auch bei unserem EU-Projekt ein.',
+		inclusionDefinition: 'Inklusion bedeutet für Fabi… individuell und als Gemeinschaft jede Person, unabhängig von Einschränkungen, zu akzeptieren und so gut wie möglich am gesellschaftlichen Leben teilhaben zu lassen.',
+		favoriteSports: 'Taekwondo',
+		favoriteGames: 'ichu, Sushi Go!, Planet B'
 	};
 	let conny = {
 		imageSrc: connyImgSrc,
@@ -62,23 +62,12 @@
 
 	};
 </script>
-<div class="items-center max-w-screen-lg mx-auto space-y-10">
-
-	<h1 class="text-3xl font-bold mb-6">Über Uns</h1>
-	<div class="space-y-10">
+<h1 class="text-3xl font-bold mb-6">Über Uns</h1>
+<div class="space-y-10">
 	<TeamMember {...conny}></TeamMember>
 	<TeamMember {...flo}></TeamMember>
 	<TeamMember {...fabi}></TeamMember>
 	<TeamMember {...sam}></TeamMember>
 	<TeamMember {...valli}></TeamMember>
 	<TeamMember {...chrisi}></TeamMember>
-	</div>
 </div>
-
-
-1. Startseite - Aktuelle Workshops + Text
-2. Workshop Erklärt
-3. Das Spiel
-4. Kontakt
-5. Über Uns
-6. Impressum

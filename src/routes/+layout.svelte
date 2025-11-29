@@ -13,7 +13,9 @@
 		<Nav />
 	</header>
 	<main class="p-4 flex-grow">
+		<div class="max-w-screen-lg mx-auto space-y-10">
 		{@render children()}
+		</div>
 	</main>
 	<footer class="bg-gray-900 text-white p-4">
 		<div>
