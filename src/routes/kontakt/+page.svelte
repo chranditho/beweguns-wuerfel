@@ -107,87 +107,90 @@
 			</section>
 		</div>
 
-		<div>
-			<section>
-				<div class="space-y-4 mb-4">
-				<h2 class="text-2xl font-semibold">Nachricht senden</h2>
-				<p class="bg-gray-50 p-4 rounded-lg text-gray-700">Du hast Fragen oder möchtest bei unserem Projekt mitmachen? - Schreib uns eine Mail oder folge uns auf Instagram, um immer informiert zu bleiben.</p>
-				</div>
-				<form on:submit|preventDefault={handleSubmit} class="space-y-4">
-					<div>
-						<label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
-							Name *
-						</label>
-						<input
-							type="text"
-							id="name"
-							bind:value={name}
-							required
-							class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-							placeholder="Ihr vollständiger Name"
-						/>
+		{#if false}
+			<div>
+				<section>
+					<div class="space-y-4 mb-4">
+						<h2 class="text-2xl font-semibold">Nachricht senden</h2>
+						<p class="bg-gray-50 p-4 rounded-lg text-gray-700">Du hast Fragen oder möchtest bei unserem Projekt
+							mitmachen? - Schreib uns eine Mail oder folge uns auf Instagram, um immer informiert zu bleiben.</p>
 					</div>
-
-					<div>
-						<label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
-							E-Mail-Adresse *
-						</label>
-						<input
-							type="email"
-							id="email"
-							bind:value={email}
-							required
-							class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-							placeholder="ihre.email@beispiel.com"
-						/>
-					</div>
-
-					<div>
-						<label for="subject" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
-							Betreff *
-						</label>
-						<input
-							type="text"
-							id="subject"
-							bind:value={subject}
-							required
-							class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-							placeholder="Worum geht es?"
-						/>
-					</div>
-
-					<div>
-						<label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
-							Nachricht *
-						</label>
-						<textarea
-							id="message"
-							bind:value={message}
-							required
-							rows="6"
-							class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-							placeholder="Ihre Nachricht an uns..."
-						></textarea>
-					</div>
-
-					<div>
-						<button
-							type="submit"
-							disabled={isSubmitting}
-							class="w-full bg-primary-600 text-white py-2 px-4 rounded-md hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition duration-200"
-						>
-							{isSubmitting ? 'Wird gesendet...' : 'Nachricht senden'}
-						</button>
-					</div>
-
-					{#if submitMessage}
-						<div
-							class="mt-4 p-4 rounded-md {submitMessage.includes('erfolgreich') ? 'bg-green-50 text-green-700 border border-green-200' : 'bg-red-50 text-red-700 border border-red-200'}">
-							{submitMessage}
+					<form on:submit|preventDefault={handleSubmit} class="space-y-4">
+						<div>
+							<label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
+								Name *
+							</label>
+							<input
+								type="text"
+								id="name"
+								bind:value={name}
+								required
+								class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+								placeholder="Ihr vollständiger Name"
+							/>
 						</div>
-					{/if}
-				</form>
-			</section>
-		</div>
+
+						<div>
+							<label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
+								E-Mail-Adresse *
+							</label>
+							<input
+								type="email"
+								id="email"
+								bind:value={email}
+								required
+								class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+								placeholder="ihre.email@beispiel.com"
+							/>
+						</div>
+
+						<div>
+							<label for="subject" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
+								Betreff *
+							</label>
+							<input
+								type="text"
+								id="subject"
+								bind:value={subject}
+								required
+								class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+								placeholder="Worum geht es?"
+							/>
+						</div>
+
+						<div>
+							<label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
+								Nachricht *
+							</label>
+							<textarea
+								id="message"
+								bind:value={message}
+								required
+								rows="6"
+								class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+								placeholder="Ihre Nachricht an uns..."
+							></textarea>
+						</div>
+
+						<div>
+							<button
+								type="submit"
+								disabled={isSubmitting}
+								class="w-full bg-primary-600 text-white py-2 px-4 rounded-md hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition duration-200"
+							>
+								{isSubmitting ? 'Wird gesendet...' : 'Nachricht senden'}
+							</button>
+						</div>
+
+						{#if submitMessage}
+							<div
+								class="mt-4 p-4 rounded-md {submitMessage.includes('erfolgreich') ? 'bg-green-50 text-green-700 border border-green-200' : 'bg-red-50 text-red-700 border border-red-200'}">
+								{submitMessage}
+							</div>
+						{/if}
+					</form>
+				</section>
+			</div>
+		{/if}
 	</div>
 </div>
