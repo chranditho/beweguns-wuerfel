@@ -17,7 +17,7 @@
 	};
 	let fabi = {
 		imageSrc: fabiImgSrc,
-		altText: 'Auf dem Foto sieht man Fabian Veider aka Fabi aka Beanie, der kreativen Kopf des Teams. Er ist der kreative Hauptanteil des Teams.',
+		altText: 'Auf dem Foto sieht man Fabian Veider aka Fabi aka Beanie, den kreativen Kopf des Teams.',
 		description: 'Fabian Veider aka. Fabi oder Beanie bringt mit seiner Vielseitigkeit die unterschiedlichsten Blickwinkel in unser Projekt ein. Neben seinem Job als Doktorant der Systemwissenschaften und Mathecoach beim FAB Graz ist er stark in der Musik-Szene vernetzt und auch aktivistisch für die Themen Klimawandel und LGBTQ+ unterwegs. Dieses Netzwerk und seine Organisationserfahrung bringt Fabi auch bei unserem EU-Projekt ein.',
 		inclusionDefinition: 'Inklusion bedeutet für Fabi… individuell und als Gemeinschaft jede Person, unabhängig von Einschränkungen, zu akzeptieren und so gut wie möglich am gesellschaftlichen Leben teilhaben zu lassen.',
 		favoriteSports: 'Taekwondo',
