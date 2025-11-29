@@ -7,7 +7,7 @@
 	let { children } = $props();
 </script>
 
-<div class="flex flex-col min-h-screen ">
+<div class="flex flex-col min-h-screen">
 	<header class="px-4 py-2 flex flex-col justify-center items-center gap-2">
 		<img src="{header}" height="450" width="600" alt="Beweg uns Würfel Logo">
 		<Nav />
@@ -20,7 +20,7 @@
 	<footer class="bg-gray-900 text-white p-4">
 		<div>
 			<h4 class="font-bold">Links</h4>
-			<a href="https://www.instagram.com/bewegunswuerfel/?igsh=d2k5eTBzbDh5Zjg%3D&utm_source=qr">Instagram</a>
+			<a href="https://www.instagram.com/bewegunswuerfel/?igsh=d2k5eTBzbDh5Zjg%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram (external link to BewegUNS Würfel profile)">Instagram</a>
 		</div>
 	</footer>
 </div>
