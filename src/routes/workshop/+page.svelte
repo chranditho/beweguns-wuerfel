@@ -61,7 +61,7 @@
 	</article>
 	<dl class="space-y-4">
 		<div>
-			<dt class="font-bold inline">Räumlichkeiten:</dt>
+			<dt class="font-bold inline">Gruppengröße:</dt>
 			<dd class="inline">
 				Wir bieten unsere Workshops ab einer Gruppengröße von mindestens 6 Personen bis maximal 30 Personen an.
 			</dd>
