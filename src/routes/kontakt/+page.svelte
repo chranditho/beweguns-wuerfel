@@ -115,7 +115,7 @@
 			</div>
 			<form on:submit|preventDefault={handleSubmit} class="space-y-4">
 				<div>
-					<label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
+					<label for="name" class="block text-base font-semibold text-gray-900 mb-1">
 						Name *
 					</label>
 					<input
@@ -124,12 +124,12 @@
 						bind:value={name}
 						required
 						class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-						placeholder="Ihr vollständiger Name"
+						placeholder="Dein vollständiger Name"
 					/>
 				</div>
 
 				<div>
-					<label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
+					<label for="email" class="block text-base font-semibold text-gray-900 mb-1">
 						E-Mail-Adresse *
 					</label>
 					<input
@@ -138,12 +138,12 @@
 						bind:value={email}
 						required
 						class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-						placeholder="ihre.email@beispiel.com"
+						placeholder="deine.email@beispiel.com"
 					/>
 				</div>
 
 				<div>
-					<label for="subject" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
+					<label for="subject" class="block text-base font-semibold text-gray-900 mb-1">
 						Betreff *
 					</label>
 					<input
@@ -152,12 +152,12 @@
 						bind:value={subject}
 						required
 						class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-						placeholder="Worum geht es?"
+						placeholder="Worum geht es bei deiner Anfrage?"
 					/>
 				</div>
 
 				<div>
-					<label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-100 mb-1">
+					<label for="message" class="block text-base font-semibold text-gray-900 mb-1">
 						Nachricht *
 					</label>
 					<textarea
@@ -166,7 +166,7 @@
 						required
 						rows="6"
 						class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
-						placeholder="Ihre Nachricht an uns..."
+						placeholder="Deine Nachricht an uns..."
 					></textarea>
 				</div>
 

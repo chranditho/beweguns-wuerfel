@@ -28,13 +28,6 @@
 		</div>
 	</div>
 
-	<div class="mt-6 p-4 bg-gray-50 ">
-		<p class="text-sm text-gray-600 ">
-			<strong>Anmeldung:</strong> Für alle Workshops ist eine Voranmeldung erforderlich.
-			Kontaktiere uns per E-Mail an <a href="mailto:bewegungswuerfel@gmail.com?subject=Anmeldung Workshop"
-																			 class="text-primary-500 hover:opacity-80 underline">bewegungswuerfel@gmail.com</a>.
-		</p>
-	</div>
 </section>
 
 <!-- Hero Greeting Section -->
@@ -50,7 +43,7 @@
 			keine Grenzen. Entdecke verschiedene Spielformen für alt und jung, egal ob unterwegs mit Freunden oder allein
 			zuhause - wir bringen Bewegung in deinen Alltag!
 		</p>
-		<a href="mailto:bewegungswuerfel@gmail.com?subject=Anmeldung Workshop"
+		<a href="/kontakt"
 			 class="inline-block bg-primary-500 hover:bg-primary-700 text-white py-3 px-8 rounded-lg transition-colors font-medium">
 			Jetzt anmelden
 		</a>
