@@ -1,4 +1,5 @@
 import { json } from '@sveltejs/kit';
+import { env } from '$env/dynamic/private';
 import type { RequestHandler } from './$types';
 
 export const POST: RequestHandler = async ({ request }) => {
@@ -24,7 +25,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		}
 
 		// Check for Resend API key
-		const resendApiKey = process.env.RESEND_API_KEY;
+		const resendApiKey = env.RESEND_API_KEY;
 		if (!resendApiKey) {
 			console.error('RESEND_API_KEY environment variable not set');
 			return json(
@@ -41,8 +42,8 @@ export const POST: RequestHandler = async ({ request }) => {
 				'Content-Type': 'application/json',
 			},
 			body: JSON.stringify({
-				from: 'noreply@yourdomain.com', // Replace with your verified domain
-				to: ['your-email@example.com'], // Replace with your email address
+				from: 'onboarding@resend.dev',
+				to: ['onboarding@resend.dev'],
 				subject: `Kontaktformular: ${subject}`,
 				html: `
 					<h2>Neue Nachricht über das Kontaktformular</h2>
