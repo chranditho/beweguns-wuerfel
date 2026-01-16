@@ -26,6 +26,11 @@ export const POST: RequestHandler = async ({ request }) => {
 
 		// Check for Resend API key
 		const resendApiKey = env.RESEND_API_KEY;
+		const resendFrom = env.RESEND_FROM ?? 'onboarding@resend.dev';
+		const resendTo = (env.RESEND_TO ?? 'onboarding@resend.dev')
+			.split(',')
+			.map((value) => value.trim())
+			.filter(Boolean);
 		if (!resendApiKey) {
 			console.error('RESEND_API_KEY environment variable not set');
 			return json(
@@ -42,8 +47,8 @@ export const POST: RequestHandler = async ({ request }) => {
 				'Content-Type': 'application/json',
 			},
 			body: JSON.stringify({
-				from: 'onboarding@resend.dev',
-				to: ['onboarding@resend.dev'],
+				from: resendFrom,
+				to: resendTo,
 				subject: `Kontaktformular: ${subject}`,
 				html: `
 					<h2>Neue Nachricht über das Kontaktformular</h2>
