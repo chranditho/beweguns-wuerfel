@@ -13,7 +13,8 @@
 		description: 'Valerie Seebacher, auch Valli genannt, ist Lehrerin und Lehramtsstudentin für Sport, Inklusive Pädagogik und Deutsch. Zu ihren Erfahrungen zählen außerdem jahrelange Trainer- und Vorstandstätigkeiten sowie ihre Selbstständigkeit im Designbereich. Im Team ist Valli für die kreativen Aufgaben wie das Corporate Design (Logo, Instagram, Website) und den Strukturaufbau zuständig.',
 		inclusionDefinition: 'Inklusion bedeutet für Valli… Vielfalt anzuerkennen, Solidarität zu zeigen, Chancengerechtigkeit zu fordern und an das Gute in jedem Menschen zu glauben.',
 		favoriteSports: 'Tanzen, Akrobatik',
-		favoriteGames: 'Puzzle, Gemeinschaftsspiele und Real Life Games'
+		favoriteGames: 'Puzzle, Gemeinschaftsspiele und Real Life Games',
+		reverse: true
 	};
 	let fabi = {
 		imageSrc: fabiImgSrc,
@@ -57,17 +58,15 @@
 		description: 'Christoph Thonhauser, auch bekannt als Chrisi, studiert Computer Science and Digital Communication und ist leidenschaftlicher Programmierer mit mehreren Jahren Berufserfahrung in der Webentwicklung. Sein Aufgabenbereich im Team ist die digitale Kommunikation des Projektes und die Website-Entwicklung.',
 		inclusionDefinition: 'Inklusion bedeutet für Chrisi… Zugänge für alle zu schaffen und das aktive Miteinbeziehen von Menschen in einem Umfeld ohne Ausgrenzung oder Benachteiligung.',
 		favoriteSports: 'Beachvolleyball',
-		favoriteGames: 'Mario Kart mit FreundInnen',
-		reverse: true
-
+		favoriteGames: 'Mario Kart mit FreundInnen'
 	};
 </script>
 <h1 class="text-3xl font-bold mb-6">Über Uns</h1>
 <div class="space-y-10">
+	<TeamMember {...sam}></TeamMember>
 	<TeamMember {...conny}></TeamMember>
 	<TeamMember {...flo}></TeamMember>
 	<TeamMember {...fabi}></TeamMember>
-	<TeamMember {...sam}></TeamMember>
 	<TeamMember {...valli}></TeamMember>
 	<TeamMember {...chrisi}></TeamMember>
 </div>
