@@ -18,9 +18,28 @@
 		</div>
 	</main>
 	<footer class="bg-gray-900 text-white p-4">
-		<div>
-			<h4 class="font-bold">Links</h4>
-			<a href="https://www.instagram.com/bewegunswuerfel/?igsh=d2k5eTBzbDh5Zjg%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram (external link to BewegUNS Würfel profile)">Instagram</a>
+		<div class="max-w-screen-lg mx-auto grid gap-4 md:grid-cols-2">
+			<section class="space-y-2">
+				<h4 class="font-bold">Navigation</h4>
+				<nav class="grid grid-cols-2 gap-2 text-sm">
+					<a href="/aktuell" class="hover:underline">Aktuell</a>
+					<a href="/workshop" class="hover:underline">Workshop</a>
+					<a href="/das-spiel" class="hover:underline">Das Spiel</a>
+					<a href="/ueber-uns" class="hover:underline">Über uns</a>
+					<a href="/kontakt" class="hover:underline">Kontakt</a>
+					<a href="/impressum" class="hover:underline">Impressum</a>
+				</nav>
+			</section>
+			<section class="space-y-2">
+				<h4 class="font-bold">Links</h4>
+				<a
+					href="https://www.instagram.com/bewegunswuerfel/?igsh=d2k5eTBzbDh5Zjg%3D&utm_source=qr"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="Instagram (external link to BewegUNS Würfel profile)"
+					class="hover:underline"
+				>Instagram</a>
+			</section>
 		</div>
 	</footer>
 </div>
