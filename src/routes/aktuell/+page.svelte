@@ -1,4 +1,5 @@
 <script>
+	import { resolve } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -43,7 +44,7 @@
 			keine Grenzen. Entdecke verschiedene Spielformen für alt und jung, egal ob unterwegs mit Freunden oder allein
 			zuhause - wir bringen Bewegung in deinen Alltag!
 		</p>
-		<a href="/kontakt"
+		<a href="{resolve('/kontakt')}"
 			 class="inline-block bg-primary-500 hover:bg-primary-700 text-white py-3 px-8 rounded-lg transition-colors font-medium">
 			Jetzt anmelden
 		</a>

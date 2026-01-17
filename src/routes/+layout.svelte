@@ -2,6 +2,7 @@
 	import '../app.css';
 	import header from '$lib/assets/header.png';
 	import euLogo from '$lib/assets/EN_FundedbytheEU_RGB_BLACK Outline.png';
+	import { resolve } from '$app/paths';
 
 	import Nav from '$lib/components/Nav.svelte';
 
@@ -25,12 +26,12 @@
 			<section class="space-y-2">
 				<h4 class="text-base font-semibold uppercase tracking-[0.2em] text-slate-600">Navigation</h4>
 				<nav class="grid grid-cols-3 gap-y-2 gap-x-16 md:grid-cols-3">
-					<a href="/aktuell" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Aktuell</a>
-					<a href="/workshop" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Workshop</a>
-					<a href="/das-spiel" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Das Spiel</a>
-					<a href="/ueber-uns" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Über uns</a>
-					<a href="/kontakt" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Kontakt</a>
-					<a href="/impressum" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Impressum</a>
+					<a href="{resolve('/aktuell')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Aktuell</a>
+					<a href="{resolve('/workshop')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Workshop</a>
+					<a href="{resolve('/das-spiel')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Das Spiel</a>
+					<a href="{resolve('/ueber-uns')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Über uns</a>
+					<a href="{resolve('/kontakt')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Kontakt</a>
+					<a href="{resolve('/impressum')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Impressum</a>
 				</nav>
 			</section>
 			<section class="space-y-2">
