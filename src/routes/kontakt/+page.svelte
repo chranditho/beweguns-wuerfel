@@ -174,7 +174,7 @@
 					<button
 						type="submit"
 						disabled={isSubmitting}
-						class="w-full bg-primary-600 text-white py-2 px-4 rounded-md hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition duration-200"
+						class="w-full bg-primary-700 text-white py-2 px-4 rounded-md hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition duration-200"
 					>
 						{isSubmitting ? 'Wird gesendet...' : 'Nachricht senden'}
 					</button>

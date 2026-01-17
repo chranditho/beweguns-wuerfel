@@ -45,7 +45,7 @@
 			zuhause - wir bringen Bewegung in deinen Alltag!
 		</p>
 		<a href="{resolve('/kontakt')}"
-			 class="inline-block bg-primary-500 hover:bg-primary-700 text-white py-3 px-8 rounded-lg transition-colors font-medium">
+			 class="inline-block bg-primary-700 hover:bg-primary-600 text-white py-3 px-8 rounded-lg transition-colors font-medium">
 			Jetzt anmelden
 		</a>
 	</div>
