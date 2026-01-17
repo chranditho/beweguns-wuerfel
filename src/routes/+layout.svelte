@@ -9,7 +9,7 @@
 	let { children } = $props();
 </script>
 
-<div class="flex flex-col min-h-screen max-w-6xl mx-auto">
+<div class="flex flex-col min-h-screen max-w-6xl mx-auto" aria-hidden="false">
 	<a
 		href="#main-content"
 		class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-slate-900 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary-700"
@@ -20,7 +20,7 @@
 		<img src="{header}" height="450" width="600" alt="Beweg uns Würfel Logo">
 		<Nav />
 	</header>
-	<main id="main-content" class="p-4 grow">
+	<main id="main-content" role="main" class="p-4 grow">
 		<div class="space-y-10">
 			{@render children()}
 		</div>
