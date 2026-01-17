@@ -3,6 +3,10 @@
 	import workshopImage from '$lib/assets/workshop/workshop.png';
 </script>
 
+<svelte:head>
+	<title>Workshop - BewegUNS Würfel</title>
+</svelte:head>
+
 <article>
 	<h1 class="text-3xl font-bold mb-6">Workshop</h1>
 	<section class="space-y-4">

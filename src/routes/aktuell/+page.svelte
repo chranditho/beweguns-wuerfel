@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Workshop - BewegUNS Würfel</title>
+	<title>Aktuell - BewegUNS Würfel</title>
 </svelte:head>
 
 <section class="mb-12">
