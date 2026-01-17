@@ -17,6 +17,7 @@
 		Zum Inhalt springen
 	</a>
 	<header class="px-4 py-2 flex flex-col justify-center items-center gap-2">
+		<h1 class="sr-only">BewegUNS Wuerfel</h1>
 		<img src="{header}" height="450" width="600" alt="Beweg uns Würfel Logo">
 		<Nav />
 	</header>
