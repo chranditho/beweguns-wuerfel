@@ -182,6 +182,8 @@
 
 				{#if submitMessage}
 					<div
+						role="status"
+						aria-live="polite"
 						class="mt-4 p-4 rounded-md {submitMessage.includes('erfolgreich') ? 'bg-green-50 text-green-700 border border-green-200' : 'bg-red-50 text-red-700 border border-red-200'}">
 						{submitMessage}
 					</div>

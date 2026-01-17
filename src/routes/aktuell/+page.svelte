@@ -37,7 +37,7 @@
 		<h2 class="text-3xl font-bold text-gray-800  mb-6">
 			Willkommen bei BewegUNS Würfel!
 		</h2>
-		<p class="text-lg text-gray-600  mb-8">
+		<p class="text-lg text-gray-700 mb-8">
 			Wir sind der Meinung, dass jeder Mensch Spaß an Bewegung haben kann!
 			Der BewegUNS-Würfel ist ein inklusives Würfelspiel für alle. Er wurde partizipativ entwickelt, also von Menschen
 			mit und ohne Behinderungen gemeinsam. So vielfältig wie wir Menschen sind, haben auch die kleinen Spielwürfel
