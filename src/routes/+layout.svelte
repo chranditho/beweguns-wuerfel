@@ -47,7 +47,7 @@
 					href="https://www.instagram.com/bewegunswuerfel/?igsh=d2k5eTBzbDh5Zjg%3D&utm_source=qr"
 					target="_blank"
 					rel="noopener noreferrer"
-					aria-label="Instagram (external link to BewegUNS Würfel profile)"
+					aria-label="Instagram (external link to BewegUNS-Würfel profile)"
 					class="inline-flex h-12 w-12 items-center justify-center rounded-2xl text-slate-900 transition hover:bg-slate-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-700 focus-visible:ring-offset-2"
 				>
 					<svg aria-hidden="true" viewBox="0 0 24 24" class="h-6 w-6 fill-current">

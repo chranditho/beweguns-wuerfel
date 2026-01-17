@@ -63,7 +63,7 @@
 </script>
 
 <svelte:head>
-	<title>Über Uns - BewegUNS Würfel</title>
+	<title>Über Uns - BewegUNS-Würfel</title>
 </svelte:head>
 
 <h1 class="text-3xl font-bold mb-6">Über Uns</h1>

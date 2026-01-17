@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Aktuell - BewegUNS Würfel</title>
+	<title>Aktuell - BewegUNS-Würfel</title>
 </svelte:head>
 
 <section class="mb-12">
@@ -35,7 +35,7 @@
 <section class="text-center py-16 bg-gray-50  rounded-lg mt-16 mb-16">
 	<div class="max-w-2xl mx-auto px-8">
 		<h2 class="text-3xl font-bold text-gray-800  mb-6">
-			Willkommen bei BewegUNS Würfel!
+			Willkommen bei BewegUNS-Würfel!
 		</h2>
 		<p class="text-lg text-gray-700 mb-8">
 			Wir sind der Meinung, dass jeder Mensch Spaß an Bewegung haben kann!
