@@ -5,7 +5,7 @@
 		 description: string;
 		 inclusionDefinition: string;
 		 favoriteSports: string;
-		 favoriteGames: string;
+		 favoriteGames: string | {text: string, singular: boolean};
 		 reverse?: boolean;
 	 } = $props();
 </script>
@@ -20,7 +20,11 @@
 		<p>{inclusionDefinition}</p>
 		<ul>
 			<li>Lieblingssport: {favoriteSports}</li>
+			{#if typeof favoriteGames === 'string'}
 			<li>Lieblingsspiele: {favoriteGames}</li>
+			{:else }
+			<li>Lieblingsspiel: {favoriteGames.text}</li>
+			{/if}
 		</ul>
 	</div>
 </div>
