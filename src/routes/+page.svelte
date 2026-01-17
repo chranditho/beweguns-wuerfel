@@ -1,8 +1,9 @@
 <script>
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
+	import { resolve } from '$app/paths';
 
 	onMount(() => {
-		goto('/aktuell', { replaceState: true });
+		goto(resolve('/aktuell'), { replaceState: true });
 	});
 </script>

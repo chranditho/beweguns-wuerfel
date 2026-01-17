@@ -1,11 +1,20 @@
+<script lang="ts">
+	import FotoCard from '$lib/components/FotoCard.svelte';
+	import workshopImage from '$lib/assets/workshop/workshop.png';
+</script>
+
+<svelte:head>
+	<title>Workshop - BewegUNS Würfel</title>
+</svelte:head>
+
 <article>
 	<h1 class="text-3xl font-bold mb-6">Workshop</h1>
-	<section class="bg-tertiary-50 rounded-xl p-6 border-t-4 border-t-tertiary-500">
-		<p>Bei unseren Workshops kannst du gemeinsam mit anderen Teilnehmerinnen und Teilnehmern verschiedene Spielformen
-			mit
-			dem BewegUNS-Würfel ausprobieren. Auch deine Meinung und dein Feedback sind gefragt - wir wollen wissen, was Dir
-			Spaß macht und welche Ideen Du zu unserem Spiel hast!
-		</p>
+	<section class="space-y-4">
+		<FotoCard
+			imageSrc={workshopImage}
+			altText="Teilnehmende probieren den BewegUNS-Würfel im Workshop aus"
+			text="Bei unseren Workshops kannst du gemeinsam mit anderen Teilnehmerinnen und Teilnehmern verschiedene Spielformen mit dem BewegUNS-Würfel ausprobieren. Auch deine Meinung und dein Feedback sind gefragt - wir wollen wissen, was Dir Spaß macht und welche Ideen Du zu unserem Spiel hast!"
+		/>
 		<p>Mit Übungen aus den Bereichen Mobilisierung, Motorik, Körperbewusstsein, spielerische Bewegung & Koordination,
 			die
 			an Deine Bedürfnisse angepasst werden können, ist der BewegUNS-Würfel für alle etwas!

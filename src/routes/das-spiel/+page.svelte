@@ -45,14 +45,26 @@
 				</dl>
 			</article>
 		</article>
-		{#if false}
-			<article>
-				<h2 class="text-2xl font-bold mb-2">
-					Wie kann der Bewegungswürfel noch verwendet werden?
-				</h2>
-				<p>todo: Fabian</p>
+		<article class="space-y-4">
+			<h2 class="text-2xl font-bold mb-2">
+				Wie kann der Bewegungswürfel noch verwendet werden?
+			</h2>
+			<p>Der BewegUNS-Würfel lässt sich auf viele unterschiedliche Arten spielen und immer wieder neu anpassen. Neben
+				dem klassischen Spiel gibt es zahlreiche Variationen, die für Abwechslung sorgen und den Schwierigkeitsgrad
+				verändern können:</p>
+			<article class="space-y-3">
+				<p><span class="font-semibold">Partner*innen-Modus:</span> Zwei Personen spielen zusammen und imitieren sich
+					gegenseitig. Das stärkt Kommunikation, Vertrauen und ein gemeinsames Bewegungserleben.</p>
+				<p><span class="font-semibold">Mehr Herausforderung:</span> Es können zwei oder mehr Bewegungen
+					hintereinander gewürfelt und anschließend kombiniert ausgeführt werden, ähnlich wie bei “Ich packe meinen
+					Koffer”.</p>
+				<p><span class="font-semibold">Intensitäts-Modus:</span> Mit einem weiteren sechsseitigen Würfel kann die
+					Intensität oder Wiederholungsanzahl der Bewegungen festgelegt werden (z. B. 1 = ganz leicht, 6 = so
+					intensiv wie möglich).</p>
 			</article>
-		{/if}
+			<p>Alle Varianten können jederzeit an individuelle Fähigkeiten, Bedürfnisse und Tagesformen angepasst werden.
+				Wichtig ist nicht die perfekte Ausführung, sondern die Freude an der Bewegung und am gemeinsamen Spiel.</p>
+		</article>
 		<article>
 			<h2 class="text-2xl font-bold mb-2">
 				Wer ist die Zielgruppe?

@@ -1,8 +1,9 @@
 <script>
+	import { resolve } from '$app/paths';
 </script>
 
 <svelte:head>
-	<title>Workshop - BewegUNS Würfel</title>
+	<title>Aktuell - BewegUNS Würfel</title>
 </svelte:head>
 
 <section class="mb-12">
@@ -28,13 +29,6 @@
 		</div>
 	</div>
 
-	<div class="mt-6 p-4 bg-gray-50 ">
-		<p class="text-sm text-gray-600 ">
-			<strong>Anmeldung:</strong> Für alle Workshops ist eine Voranmeldung erforderlich.
-			Kontaktiere uns per E-Mail an <a href="mailto:bewegungswuerfel@gmail.com?subject=Anmeldung Workshop"
-																			 class="text-primary-500 hover:opacity-80 underline">bewegungswuerfel@gmail.com</a>.
-		</p>
-	</div>
 </section>
 
 <!-- Hero Greeting Section -->
@@ -43,15 +37,15 @@
 		<h2 class="text-3xl font-bold text-gray-800  mb-6">
 			Willkommen bei BewegUNS Würfel!
 		</h2>
-		<p class="text-lg text-gray-600  mb-8">
+		<p class="text-lg text-gray-700 mb-8">
 			Wir sind der Meinung, dass jeder Mensch Spaß an Bewegung haben kann!
 			Der BewegUNS-Würfel ist ein inklusives Würfelspiel für alle. Er wurde partizipativ entwickelt, also von Menschen
 			mit und ohne Behinderungen gemeinsam. So vielfältig wie wir Menschen sind, haben auch die kleinen Spielwürfel
 			keine Grenzen. Entdecke verschiedene Spielformen für alt und jung, egal ob unterwegs mit Freunden oder allein
 			zuhause - wir bringen Bewegung in deinen Alltag!
 		</p>
-		<a href="mailto:bewegungswuerfel@gmail.com?subject=Anmeldung Workshop"
-			 class="inline-block bg-primary-500 hover:bg-primary-700 text-white py-3 px-8 rounded-lg transition-colors font-medium">
+		<a href="{resolve('/kontakt')}"
+			 class="inline-block bg-primary-700 hover:bg-primary-600 text-white py-3 px-8 rounded-lg transition-colors font-medium">
 			Jetzt anmelden
 		</a>
 	</div>
