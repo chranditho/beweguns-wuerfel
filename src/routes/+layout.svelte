@@ -30,7 +30,7 @@
 			class=" flex gap-6 border-t border-slate-200/70 pt-6 justify-between"
 		>
 			<section class="space-y-2">
-				<h4 class="text-base font-semibold uppercase tracking-[0.2em] text-slate-600">Navigation</h4>
+				<h2 class="text-base font-semibold uppercase tracking-[0.2em] text-slate-600">Navigation</h2>
 				<nav class="grid grid-cols-3 gap-y-2 gap-x-16 md:grid-cols-3">
 					<a href="{resolve('/aktuell')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Aktuell</a>
 					<a href="{resolve('/workshop')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Workshop</a>
@@ -41,7 +41,7 @@
 				</nav>
 			</section>
 			<section class="space-y-2">
-				<h4 class="text-base font-semibold uppercase tracking-[0.2em] text-slate-600">Socials</h4>
+				<h2 class="text-base font-semibold uppercase tracking-[0.2em] text-slate-600">Socials</h2>
 				<a
 					href="https://www.instagram.com/bewegunswuerfel/?igsh=d2k5eTBzbDh5Zjg%3D&utm_source=qr"
 					target="_blank"
@@ -55,7 +55,7 @@
 				</a>
 			</section>
 			<section class="flex flex-col items-start gap-3">
-				<h4 class="text-base font-semibold uppercase tracking-[0.2em] text-slate-600">Funded by</h4>
+				<h2 class="text-base font-semibold uppercase tracking-[0.2em] text-slate-600">Funded by</h2>
 				<img
 					src="{euLogo}"
 					alt="Funded by the European Union"
