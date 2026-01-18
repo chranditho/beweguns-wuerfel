@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Impressum - BewegUNS Würfel</title>
+	<title>Impressum - BewegUNS-Würfel</title>
 </svelte:head>
 
 <h1 class="text-3xl font-bold mb-6">Impressum</h1>

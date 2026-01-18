@@ -28,11 +28,11 @@
 	</main>
 	<footer class="my-8 px-6 text-slate-900">
 		<div
-			class=" flex gap-6 border-t border-slate-200/70 pt-6 justify-between"
+			class="grid gap-6 border-t border-slate-200/70 pt-6 lg:grid-cols-3"
 		>
 			<section class="space-y-2">
 				<h2 class="text-base font-semibold uppercase tracking-[0.2em] text-slate-600">Navigation</h2>
-				<nav class="grid grid-cols-3 gap-y-2 gap-x-16 md:grid-cols-3">
+				<nav class="grid grid-cols-2 gap-y-2 gap-x-8 sm:grid-cols-3">
 					<a href="{resolve('/aktuell')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Aktuell</a>
 					<a href="{resolve('/workshop')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Workshop</a>
 					<a href="{resolve('/das-spiel')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Das Spiel</a>
@@ -47,7 +47,7 @@
 					href="https://www.instagram.com/bewegunswuerfel/?igsh=d2k5eTBzbDh5Zjg%3D&utm_source=qr"
 					target="_blank"
 					rel="noopener noreferrer"
-					aria-label="Instagram (external link to BewegUNS Würfel profile)"
+					aria-label="Instagram (external link to BewegUNS-Würfel profile)"
 					class="inline-flex h-12 w-12 items-center justify-center rounded-2xl text-slate-900 transition hover:bg-slate-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-700 focus-visible:ring-offset-2"
 				>
 					<svg aria-hidden="true" viewBox="0 0 24 24" class="h-6 w-6 fill-current">
@@ -55,7 +55,7 @@
 					</svg>
 				</a>
 			</section>
-			<section class="flex flex-col items-start gap-3">
+			<section class="flex flex-col items-start gap-3 sm:items-end">
 				<h2 class="text-base font-semibold uppercase tracking-[0.2em] text-slate-600">Funded by</h2>
 				<img
 					src="{euLogo}"

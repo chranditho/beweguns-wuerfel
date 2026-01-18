@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Das Spiel - BewegUNS Würfel</title>
+	<title>Das Spiel - BewegUNS-Würfel</title>
 </svelte:head>
 <article>
 	<h1 class="text-3xl font-bold mb-6">Das Spiel</h1>

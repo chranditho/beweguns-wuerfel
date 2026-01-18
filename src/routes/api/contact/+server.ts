@@ -58,7 +58,7 @@ export const POST: RequestHandler = async ({ request }) => {
 					<h3>Nachricht:</h3>
 					<p>${message.replace(/\n/g, '<br>')}</p>
 					<hr>
-					<p><em>Diese Nachricht wurde über das Kontaktformular auf der BewegUNS Würfel Website gesendet.</em></p>
+					<p><em>Diese Nachricht wurde über das Kontaktformular auf der BewegUNS-Würfel Website gesendet.</em></p>
 				`,
 				reply_to: email, // Allow replying directly to the sender
 			}),

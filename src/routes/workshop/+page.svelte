@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Workshop - BewegUNS Würfel</title>
+	<title>Workshop - BewegUNS-Würfel</title>
 </svelte:head>
 
 <article>

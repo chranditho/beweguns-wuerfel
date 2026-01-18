@@ -58,12 +58,12 @@
 		description: 'Christoph Thonhauser, auch bekannt als Chrisi, studiert Computer Science and Digital Communication und ist leidenschaftlicher Programmierer mit mehreren Jahren Berufserfahrung in der Webentwicklung. Sein Aufgabenbereich im Team ist die digitale Kommunikation des Projektes und die Website-Entwicklung.',
 		inclusionDefinition: 'Inklusion bedeutet für Chrisi… Zugänge für alle zu schaffen und das aktive Miteinbeziehen von Menschen in einem Umfeld ohne Ausgrenzung oder Benachteiligung.',
 		favoriteSports: 'Beachvolleyball',
-		favoriteGames: 'Mario Kart mit FreundInnen'
+		favoriteGames: { text: 'Mario Kart mit FreundInnen', singular: true }
 	};
 </script>
 
 <svelte:head>
-	<title>Über Uns - BewegUNS Würfel</title>
+	<title>Über Uns - BewegUNS-Würfel</title>
 </svelte:head>
 
 <h1 class="text-3xl font-bold mb-6">Über Uns</h1>
