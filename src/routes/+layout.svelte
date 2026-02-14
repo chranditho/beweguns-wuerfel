@@ -62,16 +62,20 @@
 			<section class="flex flex-col items-center text-center sm:items-start sm:text-left space-y-4">
 				<h2 class="text-xs font-bold uppercase tracking-widest text-slate-500">Partner</h2>
 				<div class="flex flex-wrap justify-center sm:justify-start gap-6 items-center">
-					<img
-						src="{biocraflab}"
-						alt="Biocraflab Logo"
-						class="h-8 w-auto object-contain grayscale opacity-70"
-					>
-					<img
-						src="{ingeniousDesign}"
-						alt="Ingenious Design Logo"
-						class="h-8 w-auto object-contain grayscale opacity-70"
-					>
+					<a href="https://biocraftlab.com/" target="_blank" rel="noopener noreferrer" class="hover:opacity-100 transition-opacity">
+						<img
+							src="{biocraflab}"
+							alt="Biocraflab Logo"
+							class="h-8 w-auto object-contain grayscale opacity-70 hover:grayscale-0"
+						>
+					</a>
+					<a href="https://shop.ingeniousdesign.at/" target="_blank" rel="noopener noreferrer" class="hover:opacity-100 transition-opacity">
+						<img
+							src="{ingeniousDesign}"
+							alt="Ingenious Design Logo"
+							class="h-8 w-auto object-contain grayscale opacity-70 hover:grayscale-0"
+						>
+					</a>
 				</div>
 			</section>
 

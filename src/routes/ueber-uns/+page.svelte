@@ -80,16 +80,20 @@
 
 <section class="mt-20">
 	<h2 class="text-2xl font-bold mb-8 text-center text-slate-700">Unsere Partner</h2>
-	<div class="flex flex-wrap justify-center items-center gap-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
-		<img
-			src="{biocraflab}"
-			alt="Biocraflab Logo"
-			class="h-16 md:h-20 w-auto object-contain"
-		>
-		<img
-			src="{ingeniousDesign}"
-			alt="Ingenious Design Logo"
-			class="h-16 md:h-20 w-auto object-contain"
-		>
+	<div class="flex flex-wrap justify-center items-center gap-12">
+		<a href="https://biocraftlab.com/" target="_blank" rel="noopener noreferrer" class="grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+			<img
+				src="{biocraflab}"
+				alt="Biocraflab Logo"
+				class="h-16 md:h-20 w-auto object-contain"
+			>
+		</a>
+		<a href="https://shop.ingeniousdesign.at/" target="_blank" rel="noopener noreferrer" class="grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+			<img
+				src="{ingeniousDesign}"
+				alt="Ingenious Design Logo"
+				class="h-16 md:h-20 w-auto object-contain"
+			>
+		</a>
 	</div>
 </section>
