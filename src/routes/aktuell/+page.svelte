@@ -19,11 +19,11 @@
 				</div>
 				<div class="flex items-start gap-2">
 					<span class="text-lg">📅</span>
-					<p class="text-gray-700 ">Feber 2026</p>
+					<p class="text-gray-700 ">15.03.2026, 12:00 - 15:00 Uhr</p>
 				</div>
 				<div class="flex items-start gap-2">
 					<span class="text-lg">📍</span>
-					<p class="text-gray-700 ">(genaue Infos folgen noch)</p>
+					<p class="text-gray-700 ">Raiffeisen Sportpark, 1. Stock</p>
 				</div>
 			</div>
 		</div>
