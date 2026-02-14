@@ -1,6 +1,7 @@
 <script lang="ts">
 	import FotoCard from '$lib/components/FotoCard.svelte';
 	import workshopImage from '$lib/assets/workshop/workshop.png';
+	import workshop2Image from '$lib/assets/workshop/workshop-2.png';
 </script>
 
 <svelte:head>
@@ -22,7 +23,8 @@
 		<p>Die Teilnahme an unseren Workshops ist kostenlos. Wir sind dankbar für Dein Mitmachen und Dein Feedback!</p>
 	</section>
 </article>
-<section>
+
+<section class="mt-16">
 	<h2 class="text-2xl font-bold mb-4">Wie sind unsere Workshops aufgebaut?</h2>
 	<div class="grid grid-cols-1 text-center lg:grid-cols-3 gap-6">
 		<section class="bg-secondary-50 rounded-xl p-6">
@@ -55,39 +57,50 @@
 		</section>
 	</div>
 </section>
-<section class="space-y-6">
-	<h2 class="text-2xl font-bold mb-4">Wer kann bei unseren Workshops mitmachen?</h2>
-	<article>
-		<p>
-			Der BewegUNS-Würfel ist so gemacht, dass er so inklusiv wie möglich verwendbar ist. Das bedeutet, dass Menschen
-			mit
-			und ohne Beeinträchtigung mit unseren Würfeln spielen können.
-		</p>
-		<p>
-			Grundsätzlich gibt es keine Altersbegrenzung, um bei unseren Workshops teilzunehmen - ab Volksschulalter (ca. 6
-			Jahre) machen unsere Workshops aber erst richtig Spaß.
-		</p>
-	</article>
-	<dl class="space-y-4">
-		<div>
-			<dt class="font-bold inline">Gruppengröße:</dt>
-			<dd class="inline">
-				Wir bieten unsere Workshops ab einer Gruppengröße von mindestens 6 Personen bis maximal 30 Personen an.
-			</dd>
+
+<section class="mt-20 space-y-20">
+	<div class="flex flex-col lg:flex-row gap-10 items-center">
+		<div class="flex-1 space-y-6">
+			<h2 class="text-2xl font-bold">Wer kann bei unseren Workshops mitmachen?</h2>
+			<div class="space-y-4">
+				<p>
+					Der BewegUNS-Würfel ist so gemacht, dass er so inklusiv wie möglich verwendbar ist. Das bedeutet, dass Menschen
+					mit
+					und ohne Beeinträchtigung mit unseren Würfeln spielen können.
+				</p>
+				<p>
+					Grundsätzlich gibt es keine Altersbegrenzung, um bei unseren Workshops teilzunehmen - ab Volksschulalter (ca. 6
+					Jahre) machen unsere Workshops aber erst richtig Spaß.
+				</p>
+			</div>
 		</div>
-		<div>
-			<dt class="font-bold inline">Dauer:</dt>
-			<dd class="inline">
-				Je nach Gruppengröße dauert ein Workshop in der Regel zwischen 2 und 3 Stunden.
-				(Bei Anfragen ist die Dauer anpassbar)
-			</dd>
+		<div class="flex-1 flex justify-center">
+			<img src="{workshop2Image}" alt="Inklusiver Workshop" class="h-64 lg:h-80 w-auto object-contain rounded-xl shadow-lg">
 		</div>
-		<div>
-			<dt class="font-bold inline">Räumlichkeiten:</dt>
-			<dd class="inline">
-				Alle Workshops, die von uns veranstaltet werden, finden an einem barrierefreien Ort statt.
-				Solltest Du uns für einen Workshop buchen wollen, können wir auch zu Dir kommen!
-			</dd>
-		</div>
-	</dl>
+	</div>
+
+	<div class="bg-slate-50 p-8 md:p-12 rounded-3xl">
+		<dl class="grid grid-cols-1 md:grid-cols-3 gap-10">
+			<div>
+				<dt class="text-xl font-bold text-primary-700 mb-2">Gruppengröße:</dt>
+				<dd class="text-lg">
+					Wir bieten unsere Workshops ab einer Gruppengröße von mindestens 6 Personen bis maximal 30 Personen an.
+				</dd>
+			</div>
+			<div>
+				<dt class="text-xl font-bold text-primary-700 mb-2">Dauer:</dt>
+				<dd class="text-lg">
+					Je nach Gruppengröße dauert ein Workshop in der Regel zwischen 2 und 3 Stunden.
+					(Bei Anfragen ist die Dauer anpassbar)
+				</dd>
+			</div>
+			<div>
+				<dt class="text-xl font-bold text-primary-700 mb-2">Räumlichkeiten:</dt>
+				<dd class="text-lg">
+					Alle Workshops, die von uns veranstaltet werden, finden an einem barrierefreien Ort statt.
+					Solltest Du uns für einen Workshop buchen wollen, können wir auch zu Dir kommen!
+				</dd>
+			</div>
+		</dl>
+	</div>
 </section>
