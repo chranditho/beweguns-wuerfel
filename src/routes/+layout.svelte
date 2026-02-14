@@ -19,11 +19,11 @@
 		Zum Inhalt springen
 	</a>
 	<header class="px-4 py-2 flex flex-col justify-center items-center gap-2">
-		<h1 class="sr-only">BewegUNS Wuerfel</h1>
-		<img src="{header}" height="450" width="600" alt="Beweg uns Würfel Logo">
+		<h1 class="sr-only">BewegUNS-Würfel</h1>
+		<img src="{header}" height="450" width="600" alt="BewegUNS-Würfel Logo">
 		<Nav />
 	</header>
-	<main id="main-content" role="main" class="p-4 grow">
+	<main id="main-content" class="p-4 grow">
 		<div class="space-y-10">
 			{@render children()}
 		</div>

@@ -1,13 +1,16 @@
 <script>
 	import { resolve } from '$app/paths';
+	import workshopBanner from '$lib/assets/workshop/workshop.png';
 </script>
 
 <svelte:head>
 	<title>Aktuell - BewegUNS-Würfel</title>
 </svelte:head>
 
+<img src="{workshopBanner}" alt="Workshop Banner" class="w-full h-auto max-h-[500px] object-contain rounded-xl mb-12 shadow-md bg-white">
+
 <section class="mb-12">
-	<h1 class="text-3xl font-bold mb-6">Aktuelle Workshop Termine</h1>
+	<h1 class="text-3xl font-bold mb-6">Aktuelle Workshop-Termine</h1>
 
 	<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
 		<!-- Workshop Event 1 -->
