@@ -5,6 +5,8 @@
 	import samImgSrc from '$lib/assets/team-images/samu.png';
 	import connyImgSrc from '$lib/assets/team-images/conny.png';
 	import chrisiImgSrc from '$lib/assets/team-images/chrisi.png';
+	import biocraflab from '$lib/assets/partner/biocraflab.png';
+	import ingeniousDesign from '$lib/assets/partner/ingenious-design.png';
 	import TeamMember from '$lib/components/TeamMember.svelte';
 
 	let valli = {
@@ -75,3 +77,19 @@
 	<TeamMember {...valli}></TeamMember>
 	<TeamMember {...chrisi}></TeamMember>
 </div>
+
+<section class="mt-20">
+	<h2 class="text-2xl font-bold mb-8 text-center text-slate-700">Unsere Partner</h2>
+	<div class="flex flex-wrap justify-center items-center gap-12 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+		<img
+			src="{biocraflab}"
+			alt="Biocraflab Logo"
+			class="h-16 md:h-20 w-auto object-contain"
+		>
+		<img
+			src="{ingeniousDesign}"
+			alt="Ingenious Design Logo"
+			class="h-16 md:h-20 w-auto object-contain"
+		>
+	</div>
+</section>

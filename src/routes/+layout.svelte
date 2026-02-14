@@ -2,6 +2,8 @@
 	import '../app.css';
 	import header from '$lib/assets/header.png';
 	import euLogo from '$lib/assets/EN_FundedbytheEU_RGB_BLACK Outline.png';
+	import biocraflab from '$lib/assets/partner/biocraflab.png';
+	import ingeniousDesign from '$lib/assets/partner/ingenious-design.png';
 	import { resolve } from '$app/paths';
 
 	import Nav from '$lib/components/Nav.svelte';
@@ -26,41 +28,59 @@
 			{@render children()}
 		</div>
 	</main>
-	<footer class="my-8 px-6 text-slate-900">
+	<footer class="mt-auto mb-8 px-6 text-slate-900">
 		<div
-			class="grid gap-6 border-t border-slate-200/70 pt-6 lg:grid-cols-3"
+			class="grid gap-10 border-t border-slate-200/70 pt-8 sm:grid-cols-2 lg:grid-cols-4"
 		>
-			<section class="space-y-2">
-				<h2 class="text-base font-semibold uppercase tracking-[0.2em] text-slate-600">Navigation</h2>
-				<nav class="grid grid-cols-2 gap-y-2 gap-x-8 sm:grid-cols-3">
-					<a href="{resolve('/aktuell')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Aktuell</a>
-					<a href="{resolve('/workshop')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Workshop</a>
-					<a href="{resolve('/das-spiel')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Das Spiel</a>
-					<a href="{resolve('/ueber-uns')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Über uns</a>
-					<a href="{resolve('/kontakt')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Kontakt</a>
-					<a href="{resolve('/impressum')}" class="hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Impressum</a>
+			<section class="flex flex-col items-center text-center sm:items-start sm:text-left space-y-4">
+				<h2 class="text-xs font-bold uppercase tracking-widest text-slate-500">Navigation</h2>
+				<nav class="grid grid-cols-2 gap-y-3 gap-x-6">
+					<a href="{resolve('/aktuell')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Aktuell</a>
+					<a href="{resolve('/workshop')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Workshop</a>
+					<a href="{resolve('/das-spiel')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Das Spiel</a>
+					<a href="{resolve('/ueber-uns')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Über uns</a>
+					<a href="{resolve('/kontakt')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Kontakt</a>
+					<a href="{resolve('/impressum')}" class="text-sm hover:text-primary-700 focus-visible:underline focus-visible:underline-offset-4">Impressum</a>
 				</nav>
 			</section>
-			<section class="space-y-2">
-				<h2 class="text-base font-semibold uppercase tracking-[0.2em] text-slate-600">Socials</h2>
+
+			<section class="flex flex-col items-center text-center sm:items-start sm:text-left space-y-4">
+				<h2 class="text-xs font-bold uppercase tracking-widest text-slate-500">Socials</h2>
 				<a
 					href="https://www.instagram.com/bewegunswuerfel/?igsh=d2k5eTBzbDh5Zjg%3D&utm_source=qr"
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label="Instagram (external link to BewegUNS-Würfel profile)"
-					class="inline-flex h-12 w-12 items-center justify-center rounded-2xl text-slate-900 transition hover:bg-slate-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-700 focus-visible:ring-offset-2"
+					class="inline-flex h-10 w-10 items-center justify-center rounded-xl text-slate-900 transition hover:bg-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-700 focus-visible:ring-offset-2"
 				>
 					<svg aria-hidden="true" viewBox="0 0 24 24" class="h-6 w-6 fill-current">
 						<path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm5 5.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm6-2.25a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM12 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/>
 					</svg>
 				</a>
 			</section>
-			<section class="flex flex-col items-start gap-3 sm:items-end">
-				<h2 class="text-base font-semibold uppercase tracking-[0.2em] text-slate-600">Funded by</h2>
+
+			<section class="flex flex-col items-center text-center sm:items-start sm:text-left space-y-4">
+				<h2 class="text-xs font-bold uppercase tracking-widest text-slate-500">Partner</h2>
+				<div class="flex flex-wrap justify-center sm:justify-start gap-6 items-center">
+					<img
+						src="{biocraflab}"
+						alt="Biocraflab Logo"
+						class="h-8 w-auto object-contain grayscale opacity-70"
+					>
+					<img
+						src="{ingeniousDesign}"
+						alt="Ingenious Design Logo"
+						class="h-8 w-auto object-contain grayscale opacity-70"
+					>
+				</div>
+			</section>
+
+			<section class="flex flex-col items-center text-center sm:items-start sm:text-left space-y-4">
+				<h2 class="text-xs font-bold uppercase tracking-widest text-slate-500">Funded by</h2>
 				<img
 					src="{euLogo}"
 					alt="Funded by the European Union"
-					class="h-12 w-auto object-contain"
+					class="h-10 w-auto object-contain"
 				>
 			</section>
 		</div>
